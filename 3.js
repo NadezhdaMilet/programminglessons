@@ -22,3 +22,6 @@ console.log( typeof name1);
 let age; 
 console.log(typeof age); 
 
+function showMessage(){
+}
+console.log(typeof showMessage,showMessage); 
