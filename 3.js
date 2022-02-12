@@ -1,12 +1,19 @@
-let chislo=500;
-console.log(typeof chislo);
-let name='Nadya';
-console.log(typeof name);
+let chislo=500; //number
+console.log(typeof chislo,chislo);
 
-let proverka=true;
-console.log(typeof proverka);
+let a='Nadya'; //string
+console.log(typeof a,a);
 
-let abc="Privet11";
+let proverka=true; //boolean
+console.log(typeof proverka, proverka);
+
+let primer=undefined;//undefined
+console.log(typeof primer, primer);
+
+let b=Symbol('Nadya');
+console.log(typeof b, b)
+
+let abc="Privet11"; 
 console.log(typeof abc);
 
 let name1 = { }; 
